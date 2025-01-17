@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a66dd4b9cd4468bf00f15747256624, type: 3}
+  m_Name: PuzzleNodesRopes
+  m_EditorClassIdentifier: 
+  NodePrefab: {fileID: 5009070665523621027, guid: 64ac89bd8ab20ef46b8cee12f0a79f26, type: 3}
+  NodeClickSound: {fileID: 8300000, guid: b31bca7246fea384eb7c293151da928c, type: 3}
+  RopePrefab: {fileID: 7315049846086800002, guid: 52b6e6fa3156acf46885ba792b093f07, type: 3}
+  RopeDragSound: {fileID: 8300000, guid: 62bde673119491b4596a75532134f400, type: 3}
+  NodesSettings:
+  - StartPosition: {x: 2, y: 4}
+    WinPosition: {x: 4, y: -2}
+  - StartPosition: {x: 3.5, y: 3.5}
+    WinPosition: {x: 2, y: -2}
+  - StartPosition: {x: 4.5, y: 2}
+    WinPosition: {x: 0, y: -2}
+  - StartPosition: {x: 5, y: 1}
+    WinPosition: {x: -2, y: -2}
+  - StartPosition: {x: 5, y: -1}
+    WinPosition: {x: -5, y: -4}
+  - StartPosition: {x: 4.5, y: -2}
+    WinPosition: {x: 6, y: -4}
+  - StartPosition: {x: 3.5, y: -3.5}
+    WinPosition: {x: 2, y: 0}
+  - StartPosition: {x: -3.5, y: -3.5}
+    WinPosition: {x: 4, y: 2}
+  - StartPosition: {x: -4.5, y: -2}
+    WinPosition: {x: 6, y: 4}
+  - StartPosition: {x: -5, y: -1}
+    WinPosition: {x: 4, y: 0}
+  - StartPosition: {x: -5, y: 1}
+    WinPosition: {x: 0, y: -3}
+  - StartPosition: {x: -4.5, y: 2}
+    WinPosition: {x: 1, y: 2}
+  - StartPosition: {x: -3.5, y: 3.5}
+    WinPosition: {x: -5, y: 4}
+  - StartPosition: {x: -2, y: 4}
+    WinPosition: {x: -2, y: 2}
+  RopesSettings:
+  - IDNodeA: 1
+    IDNodeB: 2
+  - IDNodeA: 1
+    IDNodeB: 6
+  - IDNodeA: 1
+    IDNodeB: 10
+  - IDNodeA: 2
+    IDNodeB: 3
+  - IDNodeA: 2
+    IDNodeB: 7
+  - IDNodeA: 3
+    IDNodeB: 4
+  - IDNodeA: 3
+    IDNodeB: 11
+  - IDNodeA: 4
+    IDNodeB: 5
+  - IDNodeA: 4
+    IDNodeB: 14
+  - IDNodeA: 5
+    IDNodeB: 6
+  - IDNodeA: 5
+    IDNodeB: 11
+  - IDNodeA: 5
+    IDNodeB: 13
+  - IDNodeA: 6
+    IDNodeB: 9
+  - IDNodeA: 6
+    IDNodeB: 11
+  - IDNodeA: 7
+    IDNodeB: 10
+  - IDNodeA: 8
+    IDNodeB: 9
+  - IDNodeA: 8
+    IDNodeB: 12
+  - IDNodeA: 9
+    IDNodeB: 13
+  - IDNodeA: 10
+    IDNodeB: 14
+  - IDNodeA: 12
+    IDNodeB: 14
+  - IDNodeA: 13
+    IDNodeB: 14
